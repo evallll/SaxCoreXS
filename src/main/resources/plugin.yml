@@ -1,0 +1,32 @@
+name: SaxCoreXS
+version: ${project.version}
+main: saxcorexs.saxcorexs.SaxCoreXS
+api-version: 1.16
+prefix: SaxCoreXS
+load: STARTUP
+authors: [SaxTech]
+description: A better version of saxcorex, this project will still be in the works and will not be released to testing until further notice saying so.
+website: saxbot.github.io
+
+commands:
+  helloworld:
+    description: Testing command.
+    usage: /helloworld
+
+  forcechat:
+    description: Forces a player to say something!
+
+  supersmite:
+    description: Russian government has discovered a hammer that can smite you, they call it the supersmite hamemr!
+
+  fart:
+    description: Stink bomb.
+
+  hug:
+    description: Spread some love :)
+
+  owo:
+    description: owo
+
+  kiss:
+    description: Spread some more love :)

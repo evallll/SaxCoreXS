@@ -1,0 +1,23 @@
+#  ███████╗ █████╗ ██╗  ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗███████╗ Configuration file,
+#  ██╔════╝██╔══██╗╚██╗██╔╝██╔════╝██╔═══██╗██╔══██╗██╔════╝╚██╗██╔╝██╔════╝ written by ItzSakkusu,
+#  ███████╗███████║ ╚███╔╝ ██║     ██║   ██║██████╔╝█████╗   ╚███╔╝ ███████╗ release 1.1.4.1
+#  ╚════██║██╔══██║ ██╔██╗ ██║     ██║   ██║██╔══██╗██╔══╝   ██╔██╗ ╚════██║ Version released on
+#  ███████║██║  ██║██╔╝ ██╗╚██████╗╚██████╔╝██║  ██║███████╗██╔╝ ██╗███████║ 27/07/2020 5:15 PST
+#  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+# Welcome to the sexy SaxCoreXS configuration!
+# NOTE: For color codes please use the section sign symbol (§) instead of &.
+
+# GENERAL SETTINGS | THIS IS THE BASIC SETTINGS OF SAXCOREXS AND YOU CAN CHANGE THEM AT ANY TIME.
+
+Server prefix: Your Server Name Here
+Prefix: §bSaxCoreXS
+
+# PERMISSION NODES | CHANGE TO WHATEVER PERMISSION NODE YOU WANT THE FOLLOWING COMMANDS TO BE ON.
+# NOTE: Players with full /minecraft:op have all permission nodes, If you're looking for a permission manager try LuckPerms or PermissionsEx.
+# SaxCoreXS is not affiliated with LuckPerms or PermissionsEx.
+
+ForceChat: saxcorexs.forcechat
+SuperSmite: saxcorexs.supersmite
+
+# END OF CONFIGURATION FILE, I will be adding more configurable stuff soon.
+
