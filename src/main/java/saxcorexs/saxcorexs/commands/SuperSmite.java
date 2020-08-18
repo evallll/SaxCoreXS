@@ -32,8 +32,11 @@ public class SuperSmite implements CommandExecutor {
                     s.sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.AQUA + config.getString("Prefix") + ChatColor.DARK_GRAY + "] " + ChatColor.BOLD + ChatColor.RED + "That player is not online.");
                     return true;
                 }
-
-
+                if (target.hasPermission(config.getString("SuperSmiteImmune"))) {
+                    s.sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.AQUA + config.getString("Prefix") + ChatColor.DARK_GRAY + "] " + ChatColor.BOLD + ChatColor.RED + "That player is immune.");
+                    return true;
+                }
+                
                 Location location = target.getLocation();
                 if (s.hasPermission(config.getString("SuperSmite"))) {
                     Bukkit.getServer().broadcastMessage(ChatColor.GOLD + s.getName() + ChatColor.RED + " is swinging the russian supersmite hammer over " + ChatColor.GOLD + target.getName());
@@ -42,8 +45,8 @@ public class SuperSmite implements CommandExecutor {
                         target.getLocation().getWorld().strikeLightning(location);
                     }
                     Bukkit.getServer().broadcastMessage(ChatColor.GOLD + s.getName() + ChatColor.RED + " has supersmitten " + ChatColor.GOLD + target.getName());
-                    s.sendMessage(ChatColor.RED + "You've smitten " + ChatColor.GOLD + target.getName());
-                    target.sendMessage(ChatColor.RED + "You have been smitten by: " + ChatColor.GOLD + s.getName());
+                    s.sendMessage(ChatColor.RED + "You've made a burnt mcdonalds french fry out of " + ChatColor.GOLD + target.getName());
+                    target.sendMessage(ChatColor.RED + "You've been turned into a burnt mcdonalds french fry by " + ChatColor.GOLD + s.getName());
                     target.setHealth(0);
                 }
             }
