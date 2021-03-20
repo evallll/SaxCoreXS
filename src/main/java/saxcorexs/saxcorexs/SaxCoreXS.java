@@ -30,6 +30,6 @@ public final class SaxCoreXS extends JavaPlugin {
     @Override
     public void onDisable() {
         saveDefaultConfig();
-        getLogger().info("SaxCoreX has been disabled, if you did not disable the plugin a bug may be in the plugin. Contact Saxbot Development on github if this problem persists.");
+        getLogger().info("SaxCoreX has been disabled, if you did not disable the plugin a bug may be in the plugin. Contact saxnbt on github if this problem persists.");
     }
 }
