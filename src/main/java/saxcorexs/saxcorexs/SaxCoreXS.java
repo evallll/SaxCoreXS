@@ -14,6 +14,7 @@ public final class SaxCoreXS extends JavaPlugin {
         config.addDefault("Prefix", "§bSaxCoreXS");
         config.addDefault("ForceChat", "saxcorexs.forcechat");
         config.addDefault("SuperSmite", "saxcorexs.supersmite");
+        config.addDefault("SuperSmiteImmune", "saxcorexs.ssimmunity");
         config.options().copyDefaults(false);
         this.getCommand("helloworld").setExecutor((CommandExecutor) new HelloWorld());
         this.getCommand("forcechat").setExecutor((CommandExecutor) new ForceChat());
